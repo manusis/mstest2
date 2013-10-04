@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "i"
+        versionCode="in.mystore.mstest2"
+        version   = "1.0.0">
+    <name>Zite</name>
+    <description>
+        News Reader
+    </description>
+    <author email="rajiv@mystore.in" href="http://cordova.io">
+        Rajiv Kumar
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <gap:platform name="android" />
+
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <gap:plugin name="com.adobe.plugins.pushplugin" />
+
+</widget>
