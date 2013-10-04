@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "i"
-        versionCode="in.mystore.mstest2"
+        versionCode="com.manusis.ericzite"
         version   = "1.0.0">
     <name>Zite</name>
     <description>
@@ -14,6 +14,7 @@
     <content src="index.html" />
     <access origin="*" />
     <gap:platform name="android" />
+    <gap:platform name="ios" />
 
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
