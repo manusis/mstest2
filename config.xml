@@ -26,7 +26,7 @@
     <icon src="icons/ios/reader-114-1.png" gap:platform="ios" width="114" height="114" />
     <!-- retina iPad support: PhoneGap 2.5.0+ only -->
     <icon src="icons/ios/reader-144-1.png" gap:platform="ios" width="144" height="144" />
-
+    <gap:plugin name="org.apache.cordova.core.splashscreen" />
     <gap:splash src="splash.png" />
 
     <gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="748" />
