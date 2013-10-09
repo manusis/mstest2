@@ -4,7 +4,7 @@
         id        = "com.manusis.ericzite"
         versionCode="com.manusis.ericzite"
         version   = "1.0.0">
-    <name>Zite</name>
+    <name>JuuDou</name>
     <description>
         News Reader
     </description>
@@ -26,9 +26,11 @@
     <icon src="icons/ios/reader-114-1.png" gap:platform="ios" width="114" height="114" />
     <!-- retina iPad support: PhoneGap 2.5.0+ only -->
     <icon src="icons/ios/reader-144-1.png" gap:platform="ios" width="144" height="144" />
-    <gap:plugin name="org.apache.cordova.core.splashscreen" />
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
-
+    <!--<gap:plugin name="com.phonegap.plugins.facebookconnect">-->
+        <!--<param name="APP_ID" value="..." />-->
+        <!--<param name="APP_NAME" value="..." />-->
+    <!--</gap:plugin>-->
     <gap:splash src="splash.png" />
 
     <gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="748" />
